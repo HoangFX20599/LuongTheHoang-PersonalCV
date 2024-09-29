@@ -1,0 +1,83 @@
+/* Mobile */
+@media (max-width: 767.98px) {
+  /* base */
+  .container-md {
+    /* clear padding defaul of container bootstrap  */
+    padding: 0;
+  }
+
+  /* Banner */
+  .header__banner {
+    padding-top: 100%;
+  }
+
+  /* Navbar */
+  .header__navbar-list {
+    /* background-color: aquamarine; */
+    display: block;
+    margin: 2rem 0;
+  }
+
+  .header__navbar-item {
+    display: block;
+    border: none;
+  }
+  .header__navbar-item:last-child {
+    border: none;
+  }
+
+  .header__navbar-item--avatar {
+    display: none;
+  }
+
+  /* Information */
+  .information__heading {
+    font-size: 4.5rem;
+    margin: 3rem 0;
+  }
+
+  .information__content-item {
+    line-height: 3rem;
+  }
+
+  /* main-info */
+  .main-card__header {
+    justify-content: space-around;
+  }
+  .main-card__header-title,
+  .main-card__header-icon,
+  .cetificate__heading {
+    font-size: 5rem;
+  }
+
+  /* cetificate */
+
+  .cetificate__item--separate::before {
+    display: none;
+  }
+
+  .cetificate__body {
+    padding: 1rem 2rem 5rem;
+    border-bottom: 1px var(--border-secondary) solid;
+  }
+  .cetificate__item:last-child .cetificate__body {
+    border-bottom: none;
+  }
+
+  .cetificate__item {
+    padding: 5rem 2rem 0rem;
+  }
+
+  .cetificate__item--border {
+    border-bottom: none;
+  }
+
+  .cetificate__body-title {
+    font-size: 2rem;
+  }
+
+  /* Project */
+  .project__heading {
+    font-size: 4.5rem;
+  }
+}

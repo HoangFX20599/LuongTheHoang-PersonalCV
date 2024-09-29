@@ -1,0 +1,55 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* code */
+
+  /* Banner */
+  .header__banner {
+    padding-top: 80%;
+  }
+
+  /* Navbar */
+
+  .header__navbar-item {
+    padding: 0 3rem;
+  }
+
+  .header__navbar-item--avatar {
+    flex: 1;
+  }
+
+  /* Main info */
+  .main-card__body--hobby-flex {
+    justify-content: center;
+  }
+
+  /* cetificate */
+
+  .cetificate__item--separate::before {
+    height: 74%;
+  }
+
+  /* Project */
+  .project__title {
+    font-size: 2rem;
+  }
+  .project__header {
+    display: grid;
+
+    grid-template-areas:
+      "a b"
+      "c d";
+  }
+
+  .project__heading--year {
+    grid-area: a;
+  }
+  .project__header--name {
+    grid-area: b;
+  }
+
+  .project__header--job {
+    grid-area: d;
+    padding-top: 0.5rem;
+  }
+
+  /*  */
+}

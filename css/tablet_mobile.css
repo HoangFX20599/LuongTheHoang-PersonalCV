@@ -1,0 +1,18 @@
+@media (max-width: 991.98px) {
+  .my-avatar {
+    display: none;
+  }
+
+  /* cetificate */
+  .cetificate__item {
+    display: block;
+  }
+
+  .cetificate__img {
+    width: 100%;
+  }
+
+  .cetificate__body {
+    padding-left: 0;
+  }
+}

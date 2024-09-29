@@ -1,0 +1,110 @@
+:root {
+  --primary: #0000ff !important;
+  --white-color: #fff !important;
+  --black-color: #000 !important;
+  --text-color: #333 !important;
+  --border-first: #c0d1cd !important;
+  --border-secondary: #b3e1e6 !important;
+  --bg-color: #eff8ff !important;
+  --secondary: #9d88ff !important;
+  --color-2: #008000 !important;
+  --color-3: #ffa500 !important;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  /* Hack css, 1rem = 16px = 100% => 1rem = 10px = 62.5%  */
+  /* vd: 14px = 1.4rem */
+  /* font-size: 62.5%; */
+  font-size: 10px;
+
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* .project-charter {
+  background-color: var(--primary);
+} */
+
+.project-1 {
+  background-color: var(--primary);
+}
+
+.project-1 .heading {
+  color: var(--primary);
+}
+
+.project-2 {
+  background-color: var(--color-2);
+}
+
+.project-2 .heading {
+  color: var(--color-2);
+}
+
+.project-3 {
+  background-color: var(--color-3);
+}
+
+.project-3 .heading {
+  color: var(--color-3);
+}
+
+.main-container {
+  padding: 2rem;
+}
+
+.box-name {
+  background-color: var(--bg-color);
+  padding: 1rem;
+}
+
+/* layout */
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 1rem 1rem;
+  border-bottom: 2px solid var(--border-first);
+  /* color: var(--primary); */
+}
+
+.body {
+  padding-bottom: 5rem;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  padding: 1rem 2rem 3rem;
+  font-size: 2rem;
+}
+
+.content {
+  padding: 0 3rem 0 1rem;
+}
+
+.title {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+/* .text {
+} */
+
+/*  */

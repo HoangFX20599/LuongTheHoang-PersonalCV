@@ -1,0 +1,175 @@
+/* Project Charter */
+
+.main-container {
+  display: grid;
+  grid-template-areas:
+    "a1 b1 c"
+    "a2 b2 c";
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
+
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+}
+
+.goals {
+  grid-area: a1;
+}
+
+.scopes {
+  grid-area: a2;
+}
+
+.team {
+  grid-area: b1;
+}
+
+.primary {
+  grid-area: b2;
+}
+
+.timeline {
+  grid-area: c;
+}
+
+/* Goals */
+/* .goals__heading {
+}
+
+.goals__body {
+} */
+
+.goals__body-item {
+  border-bottom: 1px solid var(--border-first);
+}
+
+.goals__body-icon {
+  padding: 1rem 5rem 3rem;
+}
+
+/* .goals__body-content {
+}
+
+.goals__body-title {
+}
+
+.goals__body-text {
+} */
+
+/* Scopes */
+
+/* .scopes__heading {
+} */
+
+.scopes__body {
+  display: flex;
+}
+
+/* .scopes__body-item {
+}
+
+.scopes__body-content {
+} */
+
+.scopes__body-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+/* .scopes__body-text {
+} */
+
+/* Primary */
+/* .primary__heading {
+}
+
+.primary__body {
+}
+
+.primary__body-item {
+}
+
+.primary__body-icon {
+}
+
+.primary__body-content {
+} */
+
+.primary__body-text {
+  padding-top: 1rem;
+}
+
+/* Timeline */
+/* .timeline__heading {
+}
+
+.timeline__body {
+}
+
+.timeline__body-item {
+}
+
+.timeline__body-icon {
+} */
+
+.timeline__body-icon--border {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  color: var(--white-color);
+  text-align: center;
+  margin: 0;
+  line-height: 5rem;
+  border: 1px solid black;
+}
+
+.timeline__body-content {
+  border-bottom: 2px dotted var(--border-secondary);
+}
+
+.timeline__body-title {
+  margin-top: 2rem;
+}
+
+/* .timeline__body-text {
+} */
+
+/*  */
+/* Tablets and Mobile */
+@media (max-width: 991.98px) {
+  .main-container {
+    grid-template-areas:
+      "a1"
+      "a2"
+      "b1"
+      "b2"
+      "c";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .item {
+    display: block;
+    padding-bottom: 1rem;
+  }
+
+  .icon {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  .scopes__body {
+    display: block;
+  }
+
+  .timeline__body-title {
+    margin-top: 0rem;
+  }
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+}
