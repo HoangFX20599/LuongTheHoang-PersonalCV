@@ -1,3 +1,40 @@
+/* Language Switcher */
+#language-selector-box {
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Flexbox container */
+#language-selector {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px; /* Space between buttons */
+}
+
+#language-selector button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333333; /* Dark text color */
+  background-color: #fff3cd;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#language-selector button:hover {
+  background-color: #eec858;
+  color: #212529;
+}
+
+#language-selector button:focus {
+  outline: none;
+  box-shadow: 0 0 4px 2px rgba(0, 123, 255, 0.5);
+}
 /* Project Charter */
 
 .main-container {
